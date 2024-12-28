@@ -1,0 +1,28 @@
+
+table {
+    width: 100%;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+td{
+    border: 1px solid black; 
+    padding: 8px; 
+}
+
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: beige;
+    width: 30%;
+    overflow:auto;
+    height: 50vh;
+
+}
+
+.board-container{
+    display: flex;
+    justify-content: center;
+}
+
