@@ -1,6 +1,33 @@
 
 
+
+div {
+    cursor: pointer;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.not-visible{
+    display: none;
+}
+
+
 td{
     border: 1px solid black; 
     padding: 8px; 
+    cursor: pointer;
+    
+}
+
+
+.bacteria-hidden {
+    visibility: hidden;
+}
+
+
+.bacteria-visible {
+    visibility: visible;
+
 }
