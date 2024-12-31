@@ -11,7 +11,10 @@ export class CellComponent {
   hasBacteria = signal(false)
 
   @HostListener('click') onClick() {
-    this.hasBacteria.set(!this.hasBacteria());  
+    console.log("in here 14")
+    console.log("this.hasBacteria()", this.hasBacteria())
+    this.hasBacteria.set(!this.hasBacteria()); 
+    
   }
 
 

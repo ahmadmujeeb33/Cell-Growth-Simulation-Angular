@@ -1,4 +1,7 @@
 
 
 
-<app-board></app-board>
+
+<app-board [isSimulation]='isSimulation()'></app-board>
+
+<app-controls  (isRunning)="manageSimulation($event)"></app-controls>
